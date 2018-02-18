@@ -1,0 +1,11 @@
+@media (min-width: 992px) {
+  .header,
+  .header .left {
+    height: 100vh;
+  }
+
+  .form-contato {
+    width: 30%;
+    margin-top: -200px;
+  }
+}

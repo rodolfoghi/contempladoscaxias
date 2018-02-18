@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+}
+svg {
+  width: 100%;
+  height: 100%;
+}
+
+svg,
+img {
+  max-width: 100%;
+}
+
+.with-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer,
+.header {
+  display: block;
+  font-family: raleway, sans-serif;
+}
+
+.header {
+  background-image: url("../img/header-background.png");
+}
+
+.header .container {
+  display: flex;
+}
+
+.header .container .left,
+.header .container .right {
+  width: 50%;
+}
+
+footer .container,
+.header .container .left {
+  background-color: rgba(17, 48, 77, 0.8);
+  box-sizing: border-box;
+  padding: 2rem;
+}
+
+footer .title,
+.header .title {
+  box-sizing: border-box;
+  display: inline-block;
+  color: white;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  line-height: 1.2em;
+  text-align: center;
+  width: 100%;
+}
+
+.header-logo {
+  background-color: white;
+  border-radius: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main h2 {
+  color: #377dbd;
+  font-family: lulo-clean-w01-one-bold, sans-serif;
+  margin-top: 2em;
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.3em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.solucao-item {
+  border-bottom: #666666 1px solid;
+}
+
+.solucao-item .imagem {
+  width: 132px;
+  height: 109px;
+}
+
+.cartas-contempladas {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  color: #00305b;
+}
+
+.cartas-contempladas .imagem {
+  width: 200px;
+}
+
+.cartas-contempladas .texto .texto-title {
+  text-align: center;
+  display: inline-block;
+  font-family: "open sans", sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+.font_8 {
+  margin: 0;
+  font: normal normal normal 16px/1.4em "open sans", sans-serif;
+  line-height: 1.4em;
+  color: #00305b;
+}
+
+.mt-1 {
+  margin-top: 1em;
+}
+
+.mt-2 {
+  margin-top: 2em;
+}
+
+.mb-1 {
+  margin-bottom: 1em;
+}
+
+.p-1 {
+  padding: 1em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: white;
+}
+
+footer {
+  background-image: url("../img/footer-bg.jpg");
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.onde-estamos {
+  text-transform: uppercase;
+}
+
+.form-contato {
+  background-color: white;
+  color: rgba(17, 48, 77);
+  box-sizing: border-box;
+  border-color: #3f87a6;
+  border: 4px solid;
+  border-radius: 4px;
+}
+
+.form-contato input,
+.form-contato textarea,
+.form-contato button {
+  width: 100%;
+  font-size: 1.2em;
+}
+
+.form-contato .btn-submit {
+  font-size: 1.2em;
+  box-sizing: border-box;
+  border: none;
+  background-color: rgb(65, 183, 196);
+}

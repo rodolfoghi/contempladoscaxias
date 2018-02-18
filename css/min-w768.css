@@ -1,0 +1,21 @@
+@media (min-width: 768px) {
+  .md-2 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  main .body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .solucao-item {
+    width: 25%;
+    border: none;
+  }
+
+  .cartas-contempladas {
+    justify-content: flex-start;
+  }
+}
